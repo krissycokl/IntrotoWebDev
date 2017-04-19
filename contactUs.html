@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>
+            Contact us
+        </title>
+    </header>
+    <body>
+        <div>
+            <table>
+                <form>
+                    <tr>
+                        <td>First Name:</td>
+                        <td><input type="text" name="nameFirst" /></td>
+                    </tr>
+                    <tr>
+                        <td>Last Name:</td>
+                        <td><input type="text" name="nameLast" /></td>
+                    </tr>
+                    <tr>
+                        <td>E-mail:</td>
+                        <td><input type="email" name="email" /></td>
+                    </tr>
+                    <tr>
+                        <td>Type of License:</td>
+                        <td><input type="radio" name="licenseType" value="business" checked/>Business
+                        <input type="radio" name="licenseType" value="personal" />Personal</td>
+                    </tr>
+                    <tr>
+                        <td>Reason:</td>
+                        <td><select name="reason">
+                            <option value="none">Select a reason</option>
+                            <option value="software">Software support</option>
+                            <option value="hardware">Hardware support</option>
+                            <option value="info">Information request</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Additional information:</td>
+                        <td><textarea name="addnl"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="checkbox" name="terms" value="accepted" />I have read the terms of service</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" /></td>
+                    </tr>
+                </form>
+            </table>
+
+        </div>
+    </body>
+</html>
