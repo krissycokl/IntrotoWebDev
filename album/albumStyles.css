@@ -3,3 +3,20 @@ h2{
     font-family: 'Rubik Mono One', sans-serif;
     font-weight: 400;
 }
+
+a{
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration: underline;
+    background-color: #66ff66;
+}
+
+tbody td{
+    font-style: italic;
+}
+
+table{
+    background-color: #66ff66;
+}
