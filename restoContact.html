@@ -4,25 +4,37 @@
 <html>
     <head>
         <title>w h i t e p a n d a - Home</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="restoStyles.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     </head>
     <body>
-        <center>
+        <header>
             <h1>w h i t e p a n d a</h1>
-        </center>
-        <hr>
-        <a href="restoHome.html">Home</a>
-        <a href="restoMenu.html">Menu</a>
-        <a href="restoContact.html">Contact Us</a>
-        <hr>
+            <hr>
+            <div class="row">
+            <div class="col-xs-12 text-center">
+            <ul class="nav nav-pills center-pills">
+                <li><a href="restoIndex.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+                <li><a href="restoMenu.html">Menu</a></li>
+                <li class=active><a href="restoContact.html">Contact Us</a></li>
+            </ul>
+            </div>
+            </div>
+            <hr>
+        </header>
         <center>
-            <table>
+            <div class="container container-fluid">
+            <div class="col-xs-1 col-md-3"></div>
+            <div class="col-xs-10 col-md-6">
+            <table class="table">
                 <form>
                     <tr>
-                        <td>Name</td>
+                        <td><b>Name</b></td>
                         <td><input type=text name="name"></td>
                     </tr>
                     <tr>
-                        <td>Email</td>
+                        <td><b>Email</b></td>
                         <td><input type="email" name="email"></td>
                     </tr>
                     <tr>
@@ -30,7 +42,7 @@
                         <td><input type="text" name="phone"></td>
                     </tr>
                     <tr>
-                        <td>Reason for inquiry</td>
+                        <td><b>Reason for inquiry</b></td>
                         <td><select name="reason">
                             <option value="catering">Catering</option>
                             <option value="party">Private Party</option>
@@ -44,13 +56,13 @@
                         <td><textarea name="addl"></textarea></td>
                     </tr>
                     <tr>
-                        <td>Have you visited us before?</td>
+                        <td><b>Have you visited us before?</b></td>
                         <td><input type=radio name="visited" value="no" checked>No
                             <input type=radio name="visited" value="yes">Yes
                         </td>
                     </tr>
                     <tr>
-                        <td>Best days to contact you</td>
+                        <td><b>Best days to contact you</b></td>
                         <td>
                             <input type="checkbox" name="days" value="m">M
                             <input type="checkbox" name="days" value="tu">Tu
@@ -65,9 +77,14 @@
                     </tr>
                 </form>
             </table>
+            </div>
+            <div class="col-xs-1 col-md-3"></div>
+            </div>
+        </center>
+        <footer>
             <hr>
             <p>101 Lum Blvd, Hapsburg's Fell, TN, 50534</p>
             <p>(630) 421-5429</p>
-        </center>
+        </footer>
     </body>
 </html>

@@ -4,32 +4,44 @@
 <html>
     <head>
         <title>w h i t e p a n d a - Home</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="restoStyles.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     </head>
     <body>
-        <center>
+        <header>
             <h1>w h i t e p a n d a</h1>
-        </center>
-        <hr>
-        <a href="restoHome.html">Home</a>
-        <a href="restoMenu.html">Menu</a>
-        <a href="restoContact.html">Contact Us</a>
-        <hr>
-        <center>
-            <table>
+            <hr>
+            <div class="row">
+            <div class="col-xs-12 text-center">
+            <ul class="nav nav-pills center-pills">
+                <li><a href="restoIndex.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+                <li class=active><a href="restoMenu.html">Menu</a></li>
+                <li><a href="restoContact.html">Contact Us</a></li>
+            </ul>
+            </div>
+            </div>
+            <hr>
+        </header>
+        <div class="container-fluid container">
+            <div class="col-xs-0 col-sm-2 col-m-3"></div>
+            <center>
+            <div class="col-xs-12 col-sm-8 col-m-6">
+            <table class="table table-responsive">
                 <tr>
-                   <td>
+                   <td class="col-xs-4">
                        <h4>Myopic Sunset</h4>
                        Olives and capers compete for saltiness in this
                        briny concoction.<br>
                        $50
                    </td>
-                   <td>
+                   <td class="col-xs-4">
                        <h4>Agamemnon's Deceit</h4>
                        A flaky, buttery pastry shell in the shape of a hobby horse
                        caches a delectable anchovy paste.<br>
                        $43
                    </td>
-                   <td>
+                   <td class="col-xs-4">
                        <h4>Wherewithal</h4>
                        The accusatory eyes of a raw trout stare blankly.
                        Seasoned with a heavy hand of saffron.<br>
@@ -46,7 +58,7 @@
                     <td>
                         <h4>Sibilance and Silence</h4>
                         Served under a stainless steel dome, this dish challenges
-                        your patience.  Only once all parties have finished their
+                        your patience.  Only once all other parties have finished their
                         entrees may the dome be lifted.<br><br>
                         Allergens: milk, honey, wheat, crustacean shellfish, tree nuts, soybeans.<br>
                         $49
@@ -58,9 +70,14 @@
                     </td>
                 </tr>
             </table>
+            </div>
+            </center>
+            <div class="col-xs-0 col-sm-2 col-m-3"></div>
+        </div>
+        <footer>
             <hr>
             <p>101 Lum Blvd, Hapsburg's Fell, TN, 50534</p>
             <p>(630) 421-5429</p>
-        </center>
+        </footer>
     </body>
 </html>

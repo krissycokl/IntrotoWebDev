@@ -4,33 +4,53 @@
 <html>
     <head>
         <title>w h i t e p a n d a - Home</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="restoStyles.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     </head>
     <body>
-        <center>
+        <header>
             <h1>w h i t e p a n d a</h1>
-        </center>
-        <hr>
-        <a href="restoHome.html">Home</a>
-        <a href="restoMenu.html">Menu</a>
-        <a href="restoContact.html">Contact Us</a>
-        <hr>
-        <center>
-            <img src="restoHeader.png" height=150px width=400px>
-            <div style="width:400px;">
+            <hr>
+            <div class="row">
+            <div class="col-xs-12 text-center">
+            <ul class="nav nav-pills center-pills">
+                <li class=active><a href="restoIndex.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+                <li><a href="restoMenu.html">Menu</a></li>
+                <li><a href="restoContact.html">Contact Us</a></li>
+            </ul>
+            </div>
+            </div>
+            <hr>
+        </header>
+
+        <div class="container-fluid">
+            <div class="col-xs-1 col-md-3"></div>
+            <div class="col-xs-10 col-md-6">
+                <center>
+                <div class="row"><img src="restoHeader.png" class="col-xs-12"></div>
                 <h4>w h i t e p a n d a</h4>
-                <p align=left>
+                <p>
                     White Panda is an exciting new concept restaurant
                     in the vein of Alinea.  Featuring molecular gastronomy
                     dishes that challenge your very understanding of sustenance,
                     dining with White Panda isn't just a meal.
                 </p>
-                <p align=center>
+                <p>
                     It's an experience.
                 </p>
+                </center>
+
+                <div class="jumbotron">
+                    <h4>Please be aware that due to bloated government regulations, we will no longer be serving panda meat.</hr>
+                </div>
             </div>
+            <div class="col-xs-1 col-md-3"></div>
+        </div>
+        <footer>
             <hr>
             <p>101 Lum Blvd, Hapsburg's Fell, TN, 50534</p>
             <p>(630) 421-5429</p>
-        </center>
+        </footer>
     </body>
 </html>

@@ -1,0 +1,40 @@
+a:visited {
+    color: #888888;
+}
+
+a:hover{
+    font-weight:bold;
+}
+
+a:active{
+    text-decoration:none;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+table {
+    background-color: #dddddd;
+}
+
+.content {
+    background-color: #dddddd;
+}
+
+.center-pills{
+    display: inline-block;
+}
