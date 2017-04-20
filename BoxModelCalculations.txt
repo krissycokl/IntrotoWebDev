@@ -1,0 +1,24 @@
+#div1 {
+    height: 150px;
+    width: 400px;
+    margin: 20px;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+Total height:
+    margin-t + border-t + padding-t + content height + padding-b + border-b + margin-b
+    20 + 1 + 10 + 150 + 10 + 1 + 20
+    212 px
+Total width
+    margin-l + border-l + padding-l + content width + padding-r + border-r + margin-r
+    20 + 1 + 10 + 400 + 10 + 1 + 20
+    462 px
+Browser calculated height
+    border-t + padding-t + content height + padding-b + border-b
+    1 + 10 + 150 + 10 + 1
+    172 px
+Browser calculated width
+    border-l + padding-l + content width + padding-r + border-r
+    1 + 10 + 400 + 10 + 1
+    422 px
